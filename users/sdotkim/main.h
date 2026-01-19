@@ -1,4 +1,5 @@
 #pragma once
+#include QMK_KEYBOARD_H
 #ifndef USERSPACE_MAIN
 #define USERSPACE_MAIN
 

@@ -10,6 +10,4 @@ MUSIC_ENABLE = no
 
 SRC += $(USER_PATH)/main.c
 
-ifeq ($(strip $(TAP_DANCE_ENABLE)), yes)
 INTROSPECTION_KEYMAP_C = $(USER_PATH)/introspection_keymap.c
-endif
